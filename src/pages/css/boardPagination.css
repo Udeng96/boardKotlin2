@@ -1,0 +1,28 @@
+nav button{
+    width: 30px;
+    height: 30px;
+    margin-left:10px;
+    background-color: transparent;
+    text-align: center;
+    border: 1px solid white;
+}
+
+nav button:hover{
+    cursor:pointer;
+    background-color: black;
+    color: navajowhite;
+    font-weight: bolder;
+}
+
+nav button.active{
+    background-color: seagreen;
+    color: floralwhite;
+    font-weight: bolder;
+}
+
+nav{
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%,0);
+}

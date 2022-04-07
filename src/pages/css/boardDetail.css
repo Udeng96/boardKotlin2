@@ -1,0 +1,86 @@
+
+
+.board_detail_title{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+}
+
+.btn_area{
+    position: absolute;
+    top: 50%;
+    right: 18%;
+    transform: translate(0,-50%);
+
+}
+
+table{
+    width: 60%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+th{
+    width: 20%;
+    font-weight: bolder;
+    font-size: 20px;
+    color: teal;
+    border: 1px solid black;
+}
+
+td{
+    padding-right: 20px;
+    border : 1px solid black;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.btn_delete_post{
+    background-color: white;
+    border:1px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.btn_delete_post:hover{
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+}
+
+.btn_modify_post{
+    margin-left: 10px;
+    background-color: white;
+    border:1px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn_modify_post:hover{
+    cursor: pointer;
+    color: white;
+    background-color: tomato;
+}
+
+.btn_back_list{
+    margin-left: 10px;
+    background-color: white;
+    border:1px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.btn_back_list:hover{
+    cursor: pointer;
+    color: white;
+    background-color: tomato;
+}
+
